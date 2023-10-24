@@ -1,0 +1,185 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(6, 33, 85), rgb(2, 151, 219));
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 420px;
+    height: 600px;
+    border-radius: 15px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(141, 204, 255);
+}
+
+
+.container .search .enter-city input {
+    width: 190px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    border: solid;
+    color: grey;
+    border-color: rgba(60, 122, 255, 0.588);
+    
+}
+
+.container .search {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .search .image-search{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: solid;
+    border-color: rgb(90, 138, 239);
+}
+
+.container .liner {
+    position: relative;
+    color: aliceblue;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.686);
+    top: 65px;
+}
+
+.container .result-block {
+    margin-top: 30px;
+}
+
+
+
+.container .result-block .description-item .image-item {
+    display: block;
+    margin:  0 auto;
+    margin-top: 15px;
+    width: 150px;
+
+}
+
+.container .result-block .degrees-item {
+    position: relative;
+    bottom: 6px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.container .result-block .title-item {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.container .result-block hr {
+    position: relative;
+    top: 20px;
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+
+
+.container .text-other {
+    text-align: center;
+    color: white;
+}
+
+.container hr {
+    height: 3px;
+    background-color: white;
+}
+
+.container .other {
+    display: flex;
+    justify-content: center;
+}
+
+.container .other .wind-speed .form{
+
+    display: flex;
+    justify-content: center;
+}
+
+.container .other .wind-speed {
+    color:aliceblue
+}
+
+.container .other .wind-speed .form h3 {
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+.container .other .wind-speed .form img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .other .wind-speed .result {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 21px;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.712);
+}
+
+
+.container .other .humidity .form{
+    display: flex;
+    justify-content: center;
+}
+
+.container .other .humidity {
+    color:aliceblue
+}
+
+.container .other .humidity .form h3 {
+    position: relative;
+    bottom: 20px;
+    left: 8px;
+}
+.container .other .humidity .form img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .other .humidity .result {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 8px;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.712);
+}
+
+.container .other .humidity {
+    margin-left: 30px;
+}
+
